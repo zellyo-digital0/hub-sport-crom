@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+/* Colors: */
+--unnamed-color-000000: #000000;
+--unnamed-color-707070: #707070;
+/* Font/text values */
+--unnamed-font-family-acumin-pro-wide: 'Lexend Deca', sans-serif;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-300: 300;
+--unnamed-font-size-7: 7px;
+--unnamed-font-size-10: 10px;
+--unnamed-font-size-11: 11px;
+--unnamed-font-size-12: 12px;
+--unnamed-font-size-14: 14px;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-40: 40px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-9: 9px;
+--unnamed-line-spacing-16: 16px;
+--unnamed-line-spacing-50: 50px;
+}
+/* basic style */
+html{
+scroll-behavior: smooth;
+}
+body{
+font-family: var(--unnamed-font-family-acumin-pro-wide);
+font-weight: 400;
+position: relative;
+color: #2e475d;
+background: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight: 700;
+}
+a{
+display: inline-block;
+transition: all ease .6s;
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+small{
+display: inline-block;
+}
+ul{
+margin: 0;
+list-style: none;
+padding: 0;
+}
+/* media style */
+.media {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-align: start;
+align-items: flex-start;
+}
+.media-body {
+-ms-flex: 1;
+flex: 1;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+max-width: 1104px;
+}
+/* ----------------------------------------------
+header start
+---------------------------------------------- */
+header {
+padding: 16px 0;
+}
+header ul{}
+header ul li{
+border-left: 2px solid #b6c7d6;
+align-self: center;
+height: 100%;
+}
+header ul li:first-child{
+border-left: 0;
+}
+header ul li a{
+padding: 0 32px;
+}
+header ul li a img.img-fluid{
+max-width: 110px;
+}
+/* ----------------------------------------------
+header start
+---------------------------------------------- */
+/* ----------------------------------------------
+banner start
+---------------------------------------------- */
+.banner {
+padding: 6rem 0;
+position: relative;
+overflow: hidden;
+background: #3e5974;
+}
+.banner .hsg-page-header__bg-image {
+background-position: 50% 50%;
+background-size: cover;
+height: 100%;
+position: absolute;
+right: 0;
+width: 50%;
+display: block;
+top: 0;
+}
+.banner .banner-header {
+bottom: auto;
+top: 0;
+position: absolute;
+right: auto;
+height: 100%;
+width: 52%;
+}
+.banner .hsg-page-header__bg-wrapper {
+}
+.banner .banner-header svg{
+height: 100%;
+right: 0;
+position: absolute;
+-webkit-transform: translateX(25%);
+transform: translateX(25%);
+width: auto;
+}
+.banner .banner-header svg.banner-header-bg-desktop .hsg-page-header__bg-blob--small{
+-webkit-transform: translateY(7px);
+transform: translateY(7px);
+}
+.banner .banner-header svg.banner-header-bg-desktop{
+display: block;
+}
+.banner .banner-header svg.banner-header-bg-mobile {
+display: none;
+}
+.banner .box {
+width: 486px;
+max-width: 100%;
+color: #fff;
+}
+.banner .box h1{
+font-size: 3rem;
+font-weight: 500;
+line-height: 1.25;
+margin-bottom: 0;
+}
+.banner .box p{
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.75;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.banner .box a{
+margin-bottom: 1rem;
+background-color: #fff;
+color: #2e475d;
+border: 1px solid #fff;
+padding: 0.9em 1.388em;
+font-size: .9375rem;
+min-width: 8.555rem;
+text-align: center;
+border-radius: 0.1875rem;
+transition: 0.3s ease-in-out;
+display: inline-block;
+text-decoration: none;
+border: 0;
+font-weight: 500;
+line-height: 1.57;
+}
+/* ----------------------------------------------
+banner end
+---------------------------------------------- */
+/* ----------------------------------------------
+common-item-wrapp start
+---------------------------------------------- */
+.common-item-wrapp {
+padding: 3.125rem 0;
+}
+.common-item-wrapp .common-item:last-child{
+margin-bottom: 0;
+}
+.common-item-wrapp .common-item{
+margin: 0 0 6.25rem;
+}
+.common-item-wrapp .common-item .item-left{}
+.common-item-wrapp .common-item .item-left img{}
+.common-item-wrapp .common-item .item-right{
+max-width: 432px;
+margin-left: auto;
+}
+.common-item-wrapp .common-item .item-right h4 {
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 1.6;
+margin-bottom: 10px;
+}
+.common-item-wrapp .common-item .item-right p{
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+color: rgb(46, 71, 93);
+margin-bottom: 28px;
+}
+.common-item-wrapp .common-item .item-right a{
+color: #0b8484;
+font-weight: 500;
+text-decoration: none;
+font-size: 16px;
+}
+.common-item-wrapp .common-item .item-right a:hover{
+text-decoration: underline;
+}
+.common-item-wrapp .common-item.right-img .item-right {
+max-width: 432px;
+margin-left: 0;
+}
+.common-item-wrapp .common-item.right-img .item-left{
+text-align: end;
+}
+/* ----------------------------------------------
+common-item-wrapp end
+---------------------------------------------- */
+/* ----------------------------------------------
+Miles start
+---------------------------------------------- */
+.Miles {
+border-top: 1px solid #CBD6E2;
+text-align: center;
+padding: 2.25em 0 1em;
+background-color: #f6f9fc;
+}
+.Miles .box{
+box-sizing: content-box;
+max-width: 710px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 1rem;
+}
+.Miles .box h2{
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.38;
+}
+/* ----------------------------------------------
+Miles end
+---------------------------------------------- */
+/* ----------------------------------------------
+Simplifica  start
+---------------------------------------------- */
+.Simplifica {
+padding: 4rem 0;
+}
+.Simplifica .left-item{
+width: 666px;
+max-width: 100%;
+}
+.Simplifica .left-item h2{
+margin: 0 0 1.25rem;
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.38;
+color: #2e475d;
+}
+.Simplifica .left-item p{
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.75;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.Simplifica .left-item a{
+margin: 2rem 0 1.5rem;
+text-align: center;
+padding: 1.411em 2em;
+font-size: 1.0625rem;
+min-width: 7.277rem;
+background-color: #ff5c35;
+color: #fff;
+border: 1px solid #ff5c35;
+font-weight: 500;
+line-height: 1.57;
+border-radius:2px;
+}
+.Simplifica .left-item a:hover{
+opacity: .4;
+}
+.Simplifica .left-item small{
+color: #516f90;
+font-size: 0.75rem;
+line-height: 1.67;
+font-weight: 500;
+}
+.Simplifica .item-right{}
+.Simplifica .item-right img{
+width: 350px;
+}
+/* ----------------------------------------------
+Simplifica end
+---------------------------------------------- */
+/* ----------------------------------------------
+footer start
+---------------------------------------------- */
+footer{
+padding: 2.5rem 0;
+background-color: #213343;
+color: #fff;
+}
+footer p{
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.75;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{
+color: #b6c7d6;
+padding: 0.5rem 1rem;
+font-weight: 500;
+}
+footer ul li a:hover{
+color: #b7ecec;
+}
+/* ----------------------------------------------
+footer end
+---------------------------------------------- */
+/* ----------------------------------------------
+arrow-wrapper   start
+---------------------------------------------- */
+.slider-wrapper {
+border-bottom: 1px solid #CBD6E2;
+padding-top: 3.75rem;
+padding-bottom: 3.75rem;
+}
+.slider-wrapper .slider-inner{
+width: 850px;
+max-width: 100%;
+margin:  0 auto;
+position: relative;
+}
+.slider-wrapper .slider{
+}
+.slider-wrapper .slider-item{}
+.slider-wrapper .slider-item .box{
+padding: 0 0 0 3rem;
+}
+.slider-wrapper .slider-item .box .text-item{}
+.slider-wrapper .slider-item .box .text-item{}
+.slider-wrapper .slider-item .box .text-item p{
+font-size: 1.5rem;
+font-weight: 300;
+line-height: 1.58333em;
+position: relative;
+}
+.slider-wrapper .slider-item .box .text-item p::before {
+left: -2.3rem;
+margin: 0.125rem 0 0;
+content: open-quote;
+font-size: 3.875rem;
+position: absolute;
+color: #ff5c35;
+font-weight: 500;
+line-height: 1;
+}
+.slider-wrapper .slider-item .box .text-item p span{
+position: relative;
+line-height: 1.58333em;
+display: inline-block;
+}
+.slider-wrapper .slider-item .box .text-item p span::after{
+bottom: -1.5rem;
+margin: -1.25rem 0 0 0.5rem;
+content: close-quote;
+font-size: 3.75rem;
+position: absolute;
+color: #ff5c35;
+font-weight: 500;
+}
+.slider-wrapper .slider-item .box .text-bottom{
+margin: 1.5rem 0 1rem;
+}
+.slider-wrapper .slider-item .box .text-bottom h4{
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 1.57;
+text-transform: uppercase;
+font-size: 0.9375rem;
+margin: 0;
+}
+.slider-wrapper .slider-item .box .text-bottom p{
+color: #3e5974;
+display: block;
+font-weight: 500;
+margin-bottom: 0;
+}
+.slider-wrapper .slider-item .box .text-bottom p em{}
+.slider-wrapper .arrow-wrapper{}
+.slider-wrapper .arrow-wrapper button {
+position: relative;
+width: 2.5rem;
+height: 2.5rem;
+display: flex;
+border: 0 solid #fff;
+background-color: #fff;
+border-radius: 50%;
+box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
+transition: 0.3s ease-in-out;
+align-items: center;
+justify-content: center;
+padding: 0.5rem;
+pointer-events: auto;
+cursor: pointer;
+}
+.slider-wrapper .arrow-wrapper button.prev {
+position: absolute;
+left: -60px;
+top: 50%;
+transform: translateY(-50%) rotate(180deg);
+}
+.slider-wrapper .arrow-wrapper button.next{
+position: absolute;
+right: -80px;
+top: 50%;
+transform: translateY(-50%);
+}
+.slider-wrapper .arrow-wrapper button.slick-disabled{
+opacity: 0;
+}
+.slider-wrapper .arrow-wrapper button img{}
+/* ----------------------------------------------
+arrow-wrapper   end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
